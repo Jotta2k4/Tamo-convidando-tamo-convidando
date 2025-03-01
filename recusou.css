@@ -18,8 +18,8 @@ body {
     & button {
         border-radius: 5rem;
         border: none;
-        width: 13dvw;
-        height: 5dvh;
+        width: 15dvw;
+        height: 7dvh;
         font-size: 1rem;
         margin: 1rem;
     }
