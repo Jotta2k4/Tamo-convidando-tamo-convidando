@@ -5,6 +5,7 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(sunset-beach.jpg);
 
     & img {
         max-width: 100%;
@@ -22,6 +23,7 @@ body {
         height: 7dvh;
         font-size: 1rem;
         margin: 1rem;
+        background-color: rgba(255, 255, 255, 0.474);
     }
 
     & a {
