@@ -1,5 +1,6 @@
 body {
     background-image: url(sunset-beach.jpg);
+    background-position: 45% 30%;
 }
 
 .principal {
@@ -9,16 +10,30 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10dvh 0;
+    padding-bottom: 10dvh;
+    margin-top: 10dvh;
 
-    & h1 {
+    & .secreto {
         font-size: 4rem;
         margin-top: 15dvh;
+        color: black;
+        text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    & .texto-topo {
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.093);
+        border-radius: 3cap;
+        padding: 3%;
+        margin: 10% 0;
+        box-shadow: rgba(0, 0, 0, 0.100) 5px 5px 10px;
     }
 
     & img {
-        max-width: 100%;
+        max-width: 90%;
         border-radius: 4cap;
+        box-shadow: rgba(0, 0, 0, 0.100) 5px 5px 10px;
     }
 
     & button {
@@ -28,7 +43,9 @@ body {
         height: 7dvh;
         font-size: 1.3rem;
         margin: 1rem;
-        background-color: rgba(255, 255, 255, 0.474);
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.168);
+        box-shadow: rgba(0, 0, 0, 0.100) 5px 5px 10px;
     }
 
     & p {
@@ -38,5 +55,6 @@ body {
     & a {
         text-decoration: none;
         color: black;
+        font-family: 'Courier New', Courier, monospace;
     }
 }
