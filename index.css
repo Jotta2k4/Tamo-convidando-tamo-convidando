@@ -1,17 +1,21 @@
 body {
     background-image: url(sunset-beach.jpg);
     background-position: 45% 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
 }
 
 .principal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-bottom: 10dvh;
-    margin-top: 10dvh;
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.093);
+    border-radius: 3cap;
+    padding: 3% 8%;
+    margin: 6% 0;
+    box-shadow: rgba(0, 0, 0, 0.100) 5px 5px 10px;
 
     & .secreto {
         font-size: 4rem;
@@ -21,17 +25,8 @@ body {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    & .texto-topo {
-        backdrop-filter: blur(10px);
-        background-color: rgba(255, 255, 255, 0.093);
-        border-radius: 3cap;
-        padding: 3%;
-        margin: 10% 0;
-        box-shadow: rgba(0, 0, 0, 0.100) 5px 5px 10px;
-    }
-
     & img {
-        max-width: 90%;
+        max-width: 85%;
         border-radius: 4cap;
         box-shadow: rgba(0, 0, 0, 0.100) 5px 5px 10px;
     }
